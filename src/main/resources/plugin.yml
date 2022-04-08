@@ -1,0 +1,18 @@
+name: DomanDiscord
+version: ${project.version}
+main: com.mens.doman.DomanMain
+api-version: 1.16
+authors: [ Menshons ]
+description: Oficiální discord plugin pro server DomanSKYblock
+website: http://domanskyblock.fakaheda.eu/
+commands:
+  dd:
+    description: Overeni discord uctu
+  permissions:
+    dd.auth:
+      default: op
+      description: Overeni discord uctu
+    dd.remove:
+      default: op
+      description: Odebrani hrace z databaze overenych uctu
+
